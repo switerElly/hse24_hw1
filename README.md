@@ -21,3 +21,27 @@ BS-Seq | 11347700-11367700 | 40185800-40195800 | deduplication
 SRR5836473 | 551  | 194 | 81.72%
 SRR3824222 | 1344 | 565 | 97.09%
 SRR5836475 | 797  | 274 | 90.93%
+
+## Гистограмма с общим уровнем метилирования для каждого образца
+
+#### SRR5836473 - 8 Cell
+| Read 1  | Read 2 |
+| ------------- | ------------- |
+| ![](https://github.com/switerElly/hse24_hw1/blob/main/data/Screenshot%20from%202024-02-11%2020-05-09.png)  | ![](https://github.com/switerElly/hse24_hw1/blob/main/data/Screenshot%20from%202024-02-11%2020-05-18.png)  |
+#### SRR5836475 - ICM
+| Read 1  | Read 2 |
+| ------------- | ------------- |
+| ![](https://github.com/switerElly/hse24_hw1/blob/main/data/Screenshot%20from%202024-02-11%2020-06-27.png)  | ![](https://github.com/switerElly/hse24_hw1/blob/main/data/Screenshot%20from%202024-02-11%2020-06-34.png)  |
+#### SRR3824222 - Epiblast
+| Read 1  | Read 2 |
+| ------------- | ------------- |
+| ![](https://github.com/switerElly/hse24_hw1/blob/main/data/Screenshot%20from%202024-02-11%2020-03-25.png)  | ![](https://github.com/switerElly/hse24_hw1/blob/main/data/Screenshot%20from%202024-02-11%2020-03-40.png)  |
+На графиках можно заметить, что уровень метилирования на довольно высоком уровне у образца 8 cell (CpG колеблется в районе 43-44%), сильно хуже ICM (CpG 22-23%) и самый высокий у образца Epiblast (CpG 78-79%). Все соотносится с информацией, предоставленной в приложенной к заданию статье. Также для наших парных чтений наблюдаются заметные колебания - небольшой bias во втором риде.
+
+## Рисунки с уровнем метилирования и покрытием
+
+Метилирование
+![Image alt](https://github.com/switerElly/hse24_hw1/blob/main/data/image_meth.png)
+
+Покрытие
+![Image alt](https://github.com/switerElly/hse24_hw1/blob/main/data/image_cov.png)
